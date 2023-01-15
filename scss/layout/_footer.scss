@@ -1,0 +1,19 @@
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: var(--secondary-background-color);
+}
+
+.footer__box {
+    display: flex;
+    /* gap: 95px; */
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+}
