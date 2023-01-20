@@ -6,13 +6,29 @@
 }
 
 .header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
-.header__nav {
+.header__nav { 
     display: flex;
     align-items: center;
-    gap: 93px;
+    justify-content: space-between;
+
+    min-height: 60px;
 }
+
+.header__burger {
+    @media (min-width: 768px) {
+        display: none;
+    }
+
+
+}
+
+// .header__contacts {
+
+// }
