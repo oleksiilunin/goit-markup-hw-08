@@ -45,11 +45,11 @@
 	}
 }
 
-.mobile-menu__nav {}
+.mobile-menu__nav {
+	margin-bottom: 302px
+}
 
 .menu-nav {
-	margin-bottom: 302px;
-
 	font-weight: 500;
 	font-size: 40px;
 	line-height: 1.17;
@@ -59,8 +59,6 @@
 }
 
 .menu-nav__item {
-	// display: block;
-
 	&:not(:last-child) {
 		margin-bottom: 32px;
 	}
@@ -78,9 +76,7 @@
 	}
 }
 
-.mobile-menu__contacts {}
-
-.menu-contacts {
+.mobile-menu__contacts {
 	margin-bottom: 64px;
 }
 

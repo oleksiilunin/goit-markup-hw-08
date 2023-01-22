@@ -639,8 +639,11 @@ body {
   fill: var(--accent-color);
 }
 
-.menu-nav {
+.mobile-menu__nav {
   margin-bottom: 302px;
+}
+
+.menu-nav {
   font-weight: 500;
   font-size: 40px;
   line-height: 1.17;
@@ -662,7 +665,7 @@ body {
   color: var(--accent-color);
 }
 
-.menu-contacts {
+.mobile-menu__contacts {
   margin-bottom: 64px;
 }
 
