@@ -22,20 +22,23 @@
 
         min-height: 80px;
     }
+
+    @media (min-width: 1200px) {
+        gap: 315px;
+    }
 }
 
 .header__nav { 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // gap: 86px;
     height: 100%;
     width: 100%;
-    // padding: 0px 15px 0px;
     
     @media (min-width: 1200px) {
-            gap: 90px;
-        }
+        justify-content: flex-start;
+        gap: 90px;
+    }
     
 }
 
@@ -58,11 +61,4 @@
     @media (min-width: 768px) {
         display: none;
     }
-}
-
-.header__contacts { 
-    // justify-content: flex-end;
-    // display: flex;
-    // flex-direction: column;
-    // // flex: 1 1 auto;
 }
