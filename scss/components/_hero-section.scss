@@ -4,7 +4,6 @@
 	justify-content: center;
 	align-items: center;
 	gap: 30px;
-	// max-width: 1600px;
 	height: 400px;
 	margin-left: auto;
 	margin-right: auto;
@@ -47,27 +46,17 @@
 			(min-resolution: 2dppx) {
 			background-image: linear-gradient (rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 				url(../images/desktop/hero/hero-3200.jpg);
-			}
-	
+			}	
 	}
-
 }
 
-
-
 .hero__title {
-	// max-width: 696px;
-	// max-width: 767px;
-	// margin-bottom: 30px;
-	// margin-left: auto;
-	// margin-right: auto;
-
 	color: var(--slogan-text-color);
 
 	font-family: $main-font-family;
 	font-weight: 900;
 	font-size: 26px;
-	line-height: 1.62px;
+	line-height: 1.62;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	text-align: center;
