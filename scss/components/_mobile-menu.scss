@@ -7,7 +7,6 @@
 	overflow: hidden;
 
 	background-color: var(--main-background-color);
-	background-color: orange;
 	
 	transform: translateY(-100%);
 	transition: transform 500ms;
@@ -21,7 +20,6 @@
 .mobile-menu__container {
 	margin: 0 auto;
 	padding: 40px 48px;
-	// height: 100%;
 }
 
 .mobile-menu__close {

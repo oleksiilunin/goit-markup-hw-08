@@ -453,6 +453,24 @@ body.modal-open {
   gap: 60px;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .footer__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
 @media (min-width: 1200px) {
   .footer__box {
     display: -webkit-box;
@@ -1076,7 +1094,6 @@ body.modal-open {
   height: 100%;
   overflow: hidden;
   background-color: var(--main-background-color);
-  background-color: orange;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
   -webkit-transition: -webkit-transform 500ms;

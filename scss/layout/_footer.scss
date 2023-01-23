@@ -16,6 +16,14 @@
 
 	text-align: center;
 
+	@media (min-width: 768px) {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		justify-content: space-around;
+	}
+
 	@media (min-width: 1200px) {
 		display: flex;
 		justify-content: space-between;
