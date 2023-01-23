@@ -1,14 +1,16 @@
-// .socials__link--member {
-//     fill: var(--team-icon-fill);
+.socials__link--member {
+	fill: var(--team-icon-fill);
 
-//     transition-property: fill, background-color;
-//     transition-duration: 250ms;
-//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-property: fill, background-color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+	&:hover,
+	&:focus {
+		background-color: var(--accent-color);
+		fill: var(--team-accent-icon-fill);
+		box-shadow: none;
 
-//     &:hover, &:focus {
-//         background-color: var(--accent-color);
-//         fill: var(--team-accent-icon-fill);
-//         box-shadow: none;
-//     }
-// }
+		cursor: pointer;
+	}
+}

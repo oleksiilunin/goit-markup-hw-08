@@ -1,8 +1,27 @@
-// .advantages__list {
-//     display: flex;
-//     justify-content: space-between;
-// }
+.advantages__list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 30px;
+	
+	@media (min-width: 768px) {
+		flex-direction: row;
+	}
+	
+	@media (min-width: 1200px) {
+		flex-wrap: nowrap;
+	}
+}
 
-// .advantages__item {
-//     max-width: 270px;
-// }
+.advantages__item {
+	width: 100%;
+
+	@media (min-width: 768px) {
+		flex-basis: calc((100% - 2*15px) / 2);
+	}
+
+	@media (min-width: 1200px) {
+		flex-basis: calc((100% - 4*15px) / 4)
+	}
+}
