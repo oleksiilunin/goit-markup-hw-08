@@ -1,28 +1,26 @@
-// .btn-close {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
+.btn-close {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-//     position: absolute;
-//     top: 8px;
-//     right: 8px;
-//     width: 30px;
-//     height: 30px;
-//     border-radius: 50%;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
 
-//     background-color: var(--main-background-color);
-//     border: 1px solid var(--modal-icon-close-border-color);
-//     fill: var(--modal-icon-close-fill);
+	background-color: var(--main-background-color);
+	border: 1px solid var(--modal-icon-close-border-color);
+	fill: var(--modal-icon-close-fill);
 
-//     cursor: pointer;
+	cursor: pointer;
 
-//     transition-property: fill;
-//     transition-duration: 250ms;
-//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-property: fill;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-//     &:hover {
-//             fill: var(--accent-color);
-//         }
-// }
-
-
+	&:hover {
+		fill: var(--accent-color);
+	}
+}
