@@ -3,6 +3,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
+	max-height: 796px;
 	height: 100%;
 	overflow: hidden;
 
@@ -18,7 +19,9 @@
 }
 
 .mobile-menu__container {
-	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 	padding: 40px 48px;
 }
 
@@ -44,7 +47,7 @@
 }
 
 .mobile-menu__nav {
-	margin-bottom: 302px
+	margin-bottom: auto;
 }
 
 .menu-nav {
@@ -118,6 +121,7 @@
 .menu-socials {
 	display: flex;
 	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 
 .menu-socials__item {
