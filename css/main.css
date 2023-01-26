@@ -1267,8 +1267,10 @@ body.modal-open {
   background-color: var(--accent-color);
 }
 
-.footer-subscribe {
-  width: 100%;
+@media (max-width: 1199px) {
+  .footer-subscribe {
+    width: 100%;
+  }
 }
 
 .footer-subscribe__title {

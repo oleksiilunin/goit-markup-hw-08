@@ -1,5 +1,7 @@
 .footer-subscribe {
-	width: 100%;
+	@media (max-width: 1199px) {
+		width: 100%;
+	}	
 }
 
 .footer-subscribe__title {
